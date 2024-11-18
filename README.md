@@ -1,15 +1,33 @@
+<br>
+Requisitos 
 
+-php
 
+-composer
+
+-7z
+
+<br>
+<p>COMANDOS:</p>
 <section>
     
     composer install -n --prefer-dist  
 </section>
-
+<br>
+<p>Para win:</p>
 <section>
     
     copy .env.example .env
 </section>
 
+<br>
+<p>Para ubuntu:</p>
+<section>
+    
+    cp .env.example .env
+</section>
+<br>
+<p>Se sigue con el resto</p>
 <section>
     
     php artisan key:generate  
